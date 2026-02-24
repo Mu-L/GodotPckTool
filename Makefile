@@ -3,7 +3,6 @@ all: compile
 current_dir = $(shell pwd)
 
 # Detect system and set mingw cmake command
-SYSTEM_NAME = $(shell uname -s)
 ifeq ($(findstring Arch,$(shell cat /etc/os-release 2>/dev/null | grep ^NAME=)),Arch)
     MINGW_CMAKE = x86_64-w64-mingw32-cmake
 else
