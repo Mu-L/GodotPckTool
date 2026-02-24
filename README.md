@@ -256,7 +256,7 @@ supports those, see the section about podman builds.
 ### Required libraries
 
 ```sh
-sudo dnf install cmake gcc-c++ libstdc++-static mingw32-gcc-c++ mingw32-winpthreads-static
+sudo dnf install cmake gcc-c++ libstdc++-static mingw32-gcc-c++ mingw32-winpthreads-static binutils-gold
 ```
 
 Also don't forget to init git submodules.
